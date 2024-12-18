@@ -1,0 +1,91 @@
+/* General Container Styling */
+.containerStyle {
+    font-family: "Arial", sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .card-style {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Title Styling */
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Buttons */
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Table Styling */
+  .table-responsive {
+    margin-top: 20px;
+    max-height: 400px; /* Restrict table height */
+    overflow-y: auto; /* Scrollable table body */
+  }
+  
+  .table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Modal */
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  .modal-content {
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  .heading {
+    background-color: #fff;
+    font-weight: bold;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 14px;
+    }
+  }
+  

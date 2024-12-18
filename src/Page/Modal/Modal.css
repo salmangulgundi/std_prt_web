@@ -1,0 +1,63 @@
+/* Custom Modal Styling */
+.custom-modal .modal-content {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-modal-header {
+    color: #000;
+    padding: 20px;
+    border-bottom: none;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .custom-modal-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-modal-footer {
+    padding: 15px 20px;
+    border-top: none;
+    background-color: #f1f1f1;
+  }
+  
+  .custom-modal-button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-modal-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
+  /* Add responsive scaling */
+  @media (max-width: 768px) {
+    .custom-modal-title {
+      font-size: 1.2rem;
+    }
+  
+    .custom-modal-body {
+      font-size: 0.9rem;
+      padding: 15px;
+    }
+  
+    .custom-modal-button {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+  }
+  

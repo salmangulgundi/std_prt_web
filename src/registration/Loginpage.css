@@ -1,0 +1,210 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbox {
+    border-radius: 20px;
+    background-color: #F8F9FA;
+    border-radius: 50px;
+    background: #F8F9FA;
+    border-radius: 47px  0  0 47px;
+    background: #F8F9FA;
+    box-shadow:  14px 14px 42px #b8b8b8,
+                 -14px -14px 42px #ffffff;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.head {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.emailsection {
+    padding-bottom: 30px;
+}
+
+.passwordSection {
+    padding-bottom: 30px;
+}
+
+
+
+.emailsection input {
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.brd {
+    border-bottom: 1px solid gray;
+}
+
+.ticksuccess {
+    color: green;
+}
+
+.tickfailure {
+    color: red;
+}
+
+.passwordSection input {
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.button {
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(252, 227, 0);
+    border-radius: 50px;
+    color: #F8F9FA;
+    font-weight: bolder;
+    width: 50%;
+    height: 20%;
+}
+
+.button:hover {
+    background-color: #F8F9FA;
+    border: 1px solid gray;
+    color: black;
+    font-weight: bolder;
+}
+
+.container {
+    height: 85vh;
+    background: rgb(2, 0, 36);
+    border-radius:   0 47px 47px 0;
+    background: linear-gradient(90deg, rgba(255, 221, 0, 0.664) 0%, rgba(255, 200, 0, 1) 50%, rgba(255, 165, 0, 1) 100%);
+}
+
+.insideContainer {
+    padding-top: 32%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(255, 221, 0, 0.664) 0%, rgba(255, 200, 0, 1) 50%, rgba(255, 165, 0, 1) 100%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius:   0 47px 47px 0;
+    
+}
+
+.font {
+    font-size: 70px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: #F8F9FA;
+}
+
+.fontP {
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    background-color: transparent;
+    color: #F8F9FA;
+}
+
+.direction {
+    background-color: #F8F9FA;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 40%;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logosizing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+
+.head {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(90deg, rgba(255, 221, 0, 0.664) 0%, rgba(255, 200, 0, 1) 50%, rgba(255, 165, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .color{
+    color: rgba(124, 124, 124, 0.63);
+  }
+
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.1em solid;
+    white-space: nowrap;
+    animation: typing 3.5s steps(30, end) infinite, blink-caret 0.75s step-start infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    70% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      background-color: transparent;
+      border-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+      border-color: black;
+    }
+  }
+  

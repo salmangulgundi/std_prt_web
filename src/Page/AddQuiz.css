@@ -1,0 +1,88 @@
+.mainContainer {
+  padding: 10px;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  border-radius: 20px;
+  margin-top: 40px; 
+}
+
+.quiz-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%; 
+}
+
+.quiz-title {
+  text-align: center;
+}
+
+.quiz-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.delete-card-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.add-card-btn,
+.save-data-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-card-btn:hover {
+  background-color: #45a049;
+}
+
+.save-data-btn {
+  background-color: #2196f3;
+}
+
+.save-data-btn:hover {
+  background-color: #1e87e3;
+}

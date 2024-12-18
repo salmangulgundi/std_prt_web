@@ -1,0 +1,38 @@
+.center-container {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  justify-content: center; /* Center rows vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full viewport height */
+  gap: 20px; /* Space between rows */
+}
+
+.center-container > div {
+  display: flex;
+  justify-content: center; /* Center buttons in a row */
+  gap: 20px; /* Space between buttons in the same row */
+}
+
+
+.button1 {
+  padding: 10px 20px;
+  width: 250px; /* Set a consistent width */
+  height: 200px; /* Set a consistent height */
+  font-size: 20px; /* Adjust font size */
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(255, 221, 0, 0.664) 0%, rgba(255, 200, 0, 1) 50%, rgba(255, 165, 0, 1) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.button1:hover,
+.button2:hover {
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid rgba(128, 128, 128, 0.233);
+}
